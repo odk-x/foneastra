@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>           
+    <string name="app_name">Temp Sensor Demo</string>
+    <string name="currenttemp">Temperature</string>
+    <string name="alertMsg">Milk is being heated</string>
+    <string name="initTemp">0.0 \u00B0 C</string>
+    <string name="connectionStatus"> </string>
+</resources>

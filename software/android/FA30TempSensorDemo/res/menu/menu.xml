@@ -1,0 +1,13 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+       
+    <item
+        android:id="@+id/stopProcedureOption"
+        android:title="Stop">
+    </item>
+    <!-- <item
+        android:id="@+id/exitMenuOption"
+        android:title="Exit Application"/> -->
+    <item android:id="@+id/exitMenuOption" android:title="Exit App"></item>
+    <item android:id="@+id/rediscoverFA" android:title="Rediscover FA"></item>
+
+</menu>

@@ -1,0 +1,11 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+    <item android:id="@+id/uploadMenuOption" android:title="Upload Data" /><item
+        android:id="@+id/configureMenuOption"
+        android:title="Configure"/>
+    <item
+        android:id="@+id/exitMenuOption"
+        android:title="Exit Application"/>
+    
+    
+
+</menu>
