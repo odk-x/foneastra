@@ -378,7 +378,7 @@ public class DisplayTempActivity extends BaseActivity {
 			int connectCntr = 0;
 						
 			try {				
-				sensorConnect(tempSensorID, false);		
+				sensorConnect(tempSensorID, "tables");		
 			
 			while (isConnThreadRunning && (connectCntr++ < SENSOR_CONNECTION_COUNTER)) {						
 				try {					
@@ -452,7 +452,7 @@ public class DisplayTempActivity extends BaseActivity {
 
 					try {
 						// Initiate connection
-						sensorConnect(tempSensorID,false);
+						sensorConnect(tempSensorID,"tables");
 						startConnectionThread();
 					}
 					catch(RemoteException rex) {
