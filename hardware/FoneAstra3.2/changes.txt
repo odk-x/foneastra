@@ -1,0 +1,16 @@
+11/23/13. v3.2 Schematic changes (not completed in the layout) 
+
+- BT_PWR is pulled high
+- Disconnected BT_RESET from ATMega.
+- Added DIP switch S4. D5, BUZZER, BATT_LVL, WALL, DTR are on DIP switch.
+- added 2 more 1WB sockets
+- Red LED7 is connected to D4
+- Green LED3 is connected to D5_DP (& to D5 thru S4).
+
+
+12/11/2012. v3.1
+- upgraded to EAGLE version 6.3.0
+- changed silkscreen text to reflect version 3.1 
+- moved RTC battery holder so that it doesn't overlap with the I2C & PWR headers
+- rerouted some tracks/vias due to the change above
+- renamed all project files from 3.0_v4..... to 3.1 
