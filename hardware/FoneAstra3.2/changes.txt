@@ -7,6 +7,16 @@
 - Red LED7 is connected to D4
 - Green LED3 is connected to D5_DP (& to D5 thru S4).
 
+11/23/13 TODOs for v3.2
+- replace MCP73831 with ADP5062. Need to make sure that battery charging indicator LED1 works correctly.
+- connect ADP5062 to ATMega's I2C bus
+- replace the 2mm pitch connection headers with 2.54mm (0.1") connection headers.
+- find a preassembled battery alternative.
+- temperature probe needs to be preassembed.
+- switch to PTH micro USB sockets
+- complete the PCB layout to incorporate all schematic changes.  
+- update board version number to 3.2 in the layout slikscreen. 
+
 
 12/11/2012. v3.1
 - upgraded to EAGLE version 6.3.0
