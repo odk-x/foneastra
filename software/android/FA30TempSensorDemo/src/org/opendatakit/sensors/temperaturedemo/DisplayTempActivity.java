@@ -185,7 +185,7 @@ public class DisplayTempActivity extends BaseActivity {
 		Log.e(TAG,"activityShutdownActions");
 		
 		
-		if(workerThread != null && workerThread.isAlive() ) {
+		if(workerThread != null && workerThread.isCancelled() ) {
 			workerThread.stopWorker();			
 		}
 		
@@ -323,7 +323,6 @@ public class DisplayTempActivity extends BaseActivity {
 	
 	private void startWorkerThread() {
 		workerThread = new WorkerThread(this,tempSensorID); 
-		workerThread.start();
 	}
 	
 	private void startConnectionThread() {
