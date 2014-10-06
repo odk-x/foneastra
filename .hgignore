@@ -1,0 +1,7 @@
+
+syntax: regexp
+^software/android/FA30TempSensorDemo/bin$
+syntax: regexp
+^software/android/FA30TempSensorDemo/gen$
+syntax: regexp
+^software/android/FA30TempSensorDemo/libs/android-support-v4\.jar$
