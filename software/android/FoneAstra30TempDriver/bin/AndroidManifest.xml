@@ -38,6 +38,10 @@
         <meta-data
             android:name="ODK_sensors_driverImplClassname"
             android:value="org.opendatakit.sensors.drivers.foneastra.bt.temperature.OWTemperatureSensor" />
+        
+        <meta-data
+            android:name="ODK_sensors_table_definition"
+            android:value="@string/table_definition" />
 
         <service
             android:name="org.opendatakit.sensors.drivers.SensorDriverService"

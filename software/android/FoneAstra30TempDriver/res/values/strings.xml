@@ -4,6 +4,6 @@
     <string name="hello_world">Hello world!</string>
     <string name="menu_settings">Settings</string>
     <string name="title_activity_fatemperature">FATemperatureActivity</string>
-    <string name="table_definition">{\"table\": {\"name\":\"temperatureSensor\",\"columns\":[{\"name\":\"timestamp\",\"type\":\"datetime\"},{\"name\":\"sensorid\",\"type\":\"string\"},{\"name\":\"sensortype\",\"type\":\"string\"},{\"name\":\"msgtype\",\"type\":\"string\"},{\"name\":\"sample\",\"type\":\"string\"}]}}</string>
+    <string name="table_definition">{\"table\": {\"tableId\":\"temperatureSensor\",\"columns\":[{\"elementKey\":\"timestamp\",\"elementName\":\"timestamp\",\"elementType\":\"datetime\",\"listChildElementKeys\":\"[]\"},{\"elementKey\":\"sensorid\",\"elementName\":\"sensorid\",\"elementType\":\"string\",\"listChildElementKeys\":\"[]\"},{\"elementKey\":\"sensortype\",\"elementName\":\"sensortype\",\"elementType\":\"string\",\"listChildElementKeys\":\"[]\"},{\"elementKey\":\"msgtype\",\"elementName\":\"msgtype\",\"elementType\":\"string\",\"listChildElementKeys\":\"[]\"},{\"elementKey\":\"sample\",\"elementName\":\"sample\",\"elementType\":\"string\",\"listChildElementKeys\":\"[]\"}]}}</string>
 
 </resources>
