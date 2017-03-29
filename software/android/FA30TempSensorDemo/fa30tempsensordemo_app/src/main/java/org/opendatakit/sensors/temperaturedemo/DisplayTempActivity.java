@@ -16,10 +16,6 @@
 
 package org.opendatakit.sensors.temperaturedemo;
 
-import java.util.List;
-
-import org.opendatakit.sensors.service.BaseActivity;
-
 import android.app.AlertDialog;
 import android.app.ProgressDialog;
 import android.content.Context;
@@ -35,6 +31,10 @@ import android.view.MenuItem;
 import android.view.View;
 import android.widget.Button;
 import android.widget.TextView;
+
+import org.opendatakit.sensors.service.BaseActivity;
+
+import java.util.List;
 
 public class DisplayTempActivity extends BaseActivity {
 
@@ -257,7 +257,7 @@ public class DisplayTempActivity extends BaseActivity {
 
 	private void doStartActions() throws RemoteException {
 		
-		startSensor(tempSensorID);		
+		startSensor(tempSensorID, true, "default");
 				
 		startWorkerThread();
 		
@@ -377,7 +377,7 @@ public class DisplayTempActivity extends BaseActivity {
 			int connectCntr = 0;
 						
 			try {				
-				sensorConnect(tempSensorID, "default");
+				sensorConnect(tempSensorID);
 			
 			while (isConnThreadRunning && (connectCntr++ < SENSOR_CONNECTION_COUNTER)) {						
 				try {					
@@ -451,7 +451,7 @@ public class DisplayTempActivity extends BaseActivity {
 
 					try {
 						// Initiate connection
-						sensorConnect(tempSensorID,"tables");
+						sensorConnect(tempSensorID);
 						startConnectionThread();
 					}
 					catch(RemoteException rex) {
